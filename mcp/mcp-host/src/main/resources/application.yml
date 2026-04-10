@@ -1,0 +1,16 @@
+spring:
+  ai:
+    openai:
+      api-key: ${OPENAI_API_KEY}
+      chat:
+        options:
+          model: gpt-4o
+    mcp:
+      client:
+        stdio:
+          servers-configuration: classpath:/mcp-servers-config.json
+
+
+logging:
+  level:
+    io.modelcontextprotocol: DEBUG

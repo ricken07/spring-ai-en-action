@@ -1,0 +1,9 @@
+spring:
+  ai:
+    ollama:
+      chat:
+        model: qwen3:0.6b
+    openai:
+      api-key: ${OPENAI_API_KEY}
+    model:
+      chat: none

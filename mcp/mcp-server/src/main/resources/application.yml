@@ -1,0 +1,29 @@
+spring:
+  main:
+    banner-mode: off
+  ai:
+    openai:
+      api-key: ${OPENAI_API_KEY}
+
+    vectorstore:
+      pgvector:
+        dimensions: 1536
+        initialize-schema: true
+        table-name: spec_store
+
+    mcp:
+      server:
+        name: specifications-mcp-server
+        stdio: true
+
+  datasource:
+    url: jdbc:postgresql://localhost:5438/demo_db
+    username: demo
+    password: demo
+
+server:
+  port: 0
+
+logging:
+  pattern:
+    console:

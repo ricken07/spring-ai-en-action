@@ -1,0 +1,24 @@
+{
+  "mcpServers": {
+    "app-specification": {
+      "command": "java",
+      "args": [
+        "--enable-native-access=ALL-UNNAMED",
+        "-jar",
+        "/Users/rickenbazolo/Documents/src/lab/spring-ai-en-action/mcp/mcp-server/target/mcp-server-0.1.0-SNAPSHOT.jar"
+      ]
+    },
+    "github": {
+      "command": "docker",
+      "args": [
+        "run",
+        "-i",
+        "--rm",
+        "-e",
+        "GITHUB_PERSONAL_ACCESS_TOKEN",
+        "ghcr.io/github/github-mcp-server"
+      ],
+      "env": {}
+    }
+  }
+}

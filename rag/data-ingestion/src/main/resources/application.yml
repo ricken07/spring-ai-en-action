@@ -1,0 +1,12 @@
+spring:
+  ai:
+    ollama:
+      chat:
+        model: mistral
+      embedding:
+        model: mxbai-embed-large
+
+  datasource:
+    url: jdbc:postgresql://localhost:5438/demo_db
+    username: demo
+    password: demo

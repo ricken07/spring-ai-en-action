@@ -1,0 +1,11 @@
+name: spring-ai-en-action
+services:
+  postgres:
+    image: pgvector/pgvector:pg17
+    container_name: lab-postgres
+    environment:
+      - 'POSTGRES_DB=demo_db'
+      - 'POSTGRES_PASSWORD=demo'
+      - 'POSTGRES_USER=demo'
+    ports:
+      - "5438:5432"
