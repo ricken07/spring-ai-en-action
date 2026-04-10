@@ -4,7 +4,7 @@ Ce dépôt est le support de démo de la présentation **"Spring AI en action"**
 
 Cette base de code n'est donc pas une application métier unique ou un produit fini. C'est un **projet de démonstration** organisé par thèmes, pensé pour illustrer les principaux concepts de Spring AI en conditions proches du réel.
 
-Le contenu de ce dépôt prolonge également la présentation avec une série d'articles publiée sur **http://localhost:3000/fr/blog**, autour du même fil conducteur : passer de l'appel simple à un modèle jusqu'à des usages plus avancés comme le RAG, les tools, les workflows d'agents et MCP.
+Le contenu de ce dépôt prolonge également la présentation avec une série d'articles publiée sur **https://rickenbazolo.com/fr/blog**, autour du même fil conducteur : passer de l'appel simple à un modèle jusqu'à des usages plus avancés comme le RAG, les tools, les workflows d'agents et MCP.
 
 ## Ce que représente cette démo
 
